@@ -1,0 +1,114 @@
+<link href='//fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+<link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+
+
+<div id="topBnr">
+ <div class="topWrap">
+  <a href="#none" id="txt">★ 지금 가입하고 <!--/shop_name/--> 인기상품을 무료로 GET 하자! ★</a>  
+  <ul>
+      <!--/if_login/-->      
+      <li><a href="<!--/link_join/-->">정보수정</a></li>
+      <li><a href="<!--/link_logout/-->">로그아웃</a></li>
+      <!--/else/-->
+      <li><a href="<!--/link_join/-->">회원가입</a></li>
+      <li><a href="<!--/link_login/-->">로그인</a></li>
+      <!--/end_if/-->
+      <li><a href="<!--/link_mypage/-->">마이페이지</a></li>
+      <li><a href="<!--/link_basket/-->">장바구니(<!--/user_basket_quantity/-->)</a></li>
+      <li><a href="#ready">고객센터</a></li>
+      <li><a href="/shop/confirm_login.html?type=myorder">주문조회</a></li>
+  </ul>
+  </div>
+</div>
+<div class="header_wrap">
+  <div class="logo_wrap">
+    <div class="logo"><a href="/"><img src="/design/<!--/shop_id/-->/supermarket/img/logo.png"></a></div>
+  </div>
+  <div id="gnb" class="menu_wrap">
+    <div id="gnbMenu" class="menu_content gnb_kurly">
+      <div class="inner_gnbkurly">
+        <div class="gnb_main">
+          <ul class="gnb">
+            <li class="menu1"><a href="#none"><span class="ico"></span><span class="txt">전체 카테고리</span></a></li>
+            <li><a class="" href="#ready"><span class="txt">신상품</span></a></li>
+            <li><a class="" href="#ready"><span class="txt">베스트</span></a></li>
+            <li><a class="" href="#ready"><span class="txt">세일상품</span></a></li>
+            <li ><a class="" href="#ready"><span class="txt">이벤트</span></a></li>
+            <li class="lst"><a class="" href="#ready"><span class="txt">고객센터</span></a></li>
+          </ul>
+          <div class="cart_count">
+            <div class="inner_cartcount"> <a href="/shop/basket.html" class="btn_cart"> <img src="/design/<!--/shop_id/-->/supermarket/img/cart.png" alt="장바구니"><!--/user_basket_quantity/--></a> </div>
+          </div>
+          <div id="side_search" class="gnb_search"> 
+            <!--/form_search/--> 
+            <!--/input_search_word(input-keyword)/-->
+            <input onclick="<!--/link_search_button/-->" type=image src="/design/<!--/shop_id/-->/supermarket/img/ico_search_x2.png" class="btn_search">
+            <!--/end_form/--> 
+          </div>
+        </div>
+        <div class="gnb_sub">
+          <div class="inner_sub">
+            <!--/loop_category1(12)/-->
+            <ul class="gnb_menu" style="height: auto;">             
+                <li class=""><a href="<!--/if_category1@category2/--><!--/category1@link/-->&mcode=001<!--/else/--><!--/category1@link/--><!--/end_if/-->" class="menu"><span class="tit"><span class="txt"><!--/category1@name/--></span></span></a>
+                <!--/if_category1@category2/-->                
+                <ul class="sub_menu">
+                  <!--/loop_category1@category2/-->
+                  <li class=""><a href="<!--/category1@category2@link/-->" class="sub"><span class="name"><!--/category1@category2@name/--></span></a></li>
+                  <!--/end_loop/-->
+                </ul>
+                <!--/end_if/-->
+              </li>              
+            </ul>
+            <!--/end_loop/-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+(function($){
+	$(function(){
+		$('.today-cont').appendTo('.today_wrap_c');
+		$(window).on('scroll',function(){
+			var _rWigngWrapOffsetTop = $('.r_wing_wrap').offset().top;
+			var _windowScrollTop =  $(window).scrollTop();
+			if(_rWigngWrapOffsetTop <  _windowScrollTop){
+				$('.r_wing_content').css({
+					'position' : 'fixed',
+					'top' : 100,
+					'z-index' : 9999
+				});
+			}else{
+				$('.r_wing_content').css({
+					'position' : 'relative',
+					'top' : 0,
+					'z-index' : 9999
+				});
+			}
+		});
+	});
+})(jQuery);
+</script>
+<div class="r_wing_wrap">
+  <div class="r_wing_content">
+    
+    <div class="bnr_wrap">
+        <a href="#ready" class="scroll_event"><img src="/design/kyh6643/supermarket/img/scrollbar_bnr.png"></a>
+        <ul>            
+           <li><a href="#ready">신규 가입 혜택</a></li>
+           <li><a href="#ready">등급별 혜택</a></li>
+           <li><a href="#ready">베스트 리뷰</a></li>
+        </ul>
+        <div class="today_wrap_c">
+          <h3>최근 본 상품</h3>
+        </div>
+        <div class="btn">
+            <a href="#none" id="go_top"><img src="/design/kyh6643/supermarket/img/view_up.gif" alt=""></a>
+            <a href="#none" id="go_bottom"><img src="/design/kyh6643/supermarket/img/view_dw.gif" alt=""></a>
+        </div>
+    </div>
+    
+  </div>
+</div>

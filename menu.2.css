@@ -1,0 +1,16 @@
+/* mpmp */
+#mpmp { width:100%; position:relative; overflow:hidden }
+#mpmp .aside-tit { padding:120px 0 30px; font-size:24px; color:#000; font-weight:bold; text-align:center; line-height:24px }
+/* lnb */
+#mpmp .lnb-wrap { padding:19px 0; border:1px solid #000;; overflow:hidden; *zoom:1 }
+#mpmp .lnb-wrap:after { display:block; clear:both; content:'' }
+#mpmp .lnb-wrap .lnb-bx { margin-left:-1px; padding-left:39px; float:left; width:327px; min-height:130px; border-left:1px solid #e2e2e2; overflow:hidden }
+#mpmp .lnb-wrap .lnb-bx .txt { margin-top:14px; padding-left:27px; height:18px; font-size:14px; font-weight:bold; line-height:18px; background:url(//image.makeshop.co.kr/makeshop/d3/basic_simple/common/sp_mypage_aside.gif) 0 0 no-repeat }
+#mpmp .lnb-wrap .lnb-bx .txt1 { background-position:0 0 }
+#mpmp .lnb-wrap .lnb-bx .txt2 { background-position:0 -18px }
+#mpmp .lnb-wrap .lnb-bx .txt3 { background-position:0 -36px }
+#mpmp .lnb-wrap .lnb { overflow:hidden }
+#mpmp .lnb-wrap .lnb ul { margin-left:-10px; padding-top:20px;  *zoom:1 }
+#mpmp .lnb-wrap .lnb ul:after { display:block; clear:both; content:'' }
+#mpmp .lnb-wrap .lnb ul li { padding:5px 0; float:left; white-space:nowrap }
+#mpmp .lnb-wrap .lnb ul li a { padding:0 10px; font-size:12px; color:#8d8d8d; background:url(//image.makeshop.co.kr/makeshop/d3/basic_simple/common/bu_2x8.gif) 0 2px no-repeat }

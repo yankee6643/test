@@ -1,0 +1,65 @@
+footer{ margin: 0 auto; padding-top: 35px; display: table; border-top: 1px solid #dedede; width: 100%;}
+.copy_wrap{width: 1200px;  margin: 0 auto;}    
+.copy_wrap .left{float:left; width: 36%; }
+.copy_wrap .left .cs{margin-bottom: 40px;}
+.copy_wrap .left .cs li{display:inline-block; vertical-align:top}
+.copy_wrap .left .cs li.tit{width:145px; font-size: 16px; color: #000;}
+.copy_wrap .left .cs li.center{width:219px; margin-top: -6px;}
+.copy_wrap .left .cs li.center h3{
+    color: #4e4e4e;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 13px;}
+
+.copy_wrap .left .cs li.center b{
+    font-size: 39px;
+    color: #000;
+    font-family: 'Spoqa Han Sans';
+    font-weight: bolder;
+    padding-top: 4px;}
+    
+    
+.copy_wrap .left .cs li.center p{
+    line-height: 1.7;
+    display: inline-block;
+    font-size: 13px;
+    color: #6b6b6b;
+    padding-top: 14px;
+}
+    
+    
+.copy_wrap .left .cs li.bnr{width: 168px;  margin-top: 33px;}
+.copy_wrap .left .cs li.bnr a{display: block; padding: 12px 10px; border: 1px solid #dedede; text-align: center; margin: 8px 0; font-size: 14px;}
+
+
+.copy_wrap .center{ width:43%;display:inline-block;}
+
+.copy_wrap .right{position: relative;float:right; width:20%; padding-left: 10px; height: 160px;}
+.copy_wrap .right ul{position: absolute; right: 0;}
+.copy_wrap .right ul .sns{}
+.copy_wrap .right ul .sns a{display: inline-block;padding: 0 7px;}
+.copy_wrap .right ul .sns a img{}
+.copy_wrap .right .f-logo{position:absolute; bottom:8px; right:0}
+
+ul.footer_info{ margin-bottom: 20px;}
+ul.footer_info li{display:inline-block;}
+ul.footer_info li:nth-child(1) a{padding-left:0}
+ul.footer_info li a{font-size:16px;padding: 0 15px; color:#000; font-family: 'Open Sans', sans-serif; }
+
+
+
+ul.footer_info2{ margin-bottom: 25px;}
+ul.footer_info2 li{
+    line-height: 1.8;
+    display: inline-block;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    color: #747474;}
+    
+ul.footer_info2 li.copy{font-size: 11px; font-family: 'Spoqa Han Sans' color: #a5a5a5; padding-top: 20px;}
+ul.footer_info2 li a{
+    line-height: 1.8;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: unset;}
+ul.footer_info2 li:nth-child(1) a{padding-left:0}

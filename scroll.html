@@ -1,0 +1,108 @@
+ <!--/if_flash_view_product/-->
+    <div id="flashTodayView">
+        <!--/flash_view_product/-->
+    </div><!-- #flashTodayView -->
+<!--/else/-->
+    <!--/if_view_product/-->
+    
+    <script type="text/javascript">
+
+    // 최근 본 상품
+    jQuery(document).ready(function() {
+        
+    
+    
+        /*페이지 표시*/
+        var all = jQuery(".productrecent ul li").length;   
+        jQuery("#all_cnt").text(all);
+      
+    
+    // 최근 본 상품 카운트
+    var count = 1;
+
+
+     if (jQuery('.productrecent > ul > li').length) {
+
+      jQuery('.productrecent > ul > li').each(function(i) {
+       if (i+1 > count) {
+        jQuery(this).addClass('displaynone').removeClass('now-prd');
+       }
+      });
+
+      jQuery('.productrecent .prev').unbind('click').click(function()
+      {
+       var jQueryfirst = jQuery('.productrecent > ul > li:not(.displaynone)').first().prev();
+
+       if (typeof(jQueryfirst.html()) != 'undefined' && jQueryfirst.html() != null) {
+        jQueryfirst.removeClass('displaynone').addClass('now-prd').fadeIn('fast');
+       } else {
+        alert('최근 본 첫번째 상품입니다.');
+        return;
+       }
+
+       var jQuerylast = jQuery('.productrecent > ul > li:not(.displaynone)').last();
+       if (typeof(jQuerylast.html()) != 'undefined') {
+        jQuerylast.addClass('displaynone').removeClass('now-prd').hide();
+       }  
+
+      }).css(
+      {
+       cursor : 'pointer'
+      });
+
+      jQuery('.productrecent .next').unbind('click').click(function()
+      {
+       var jQuerylast = jQuery('.productrecent > ul > li:not(.displaynone)').last().next();
+       if (typeof(jQuerylast.html()) != 'undefined' && jQuerylast.html() != null) {
+        jQuerylast.removeClass('displaynone').addClass('now-prd').fadeIn('fast');
+       } else {
+        alert('최근 본 마지막 상품입니다.');
+        return;
+       }
+
+       var jQueryfirst = jQuery('.productrecent > ul > li:not(.displaynone)').first();
+       if (typeof(jQueryfirst.html()) != 'undefined') {
+        jQueryfirst.addClass('displaynone').removeClass('now-prd').hide();
+       }  
+
+      }).css(
+      {
+       cursor : 'pointer'
+      });
+
+
+     } else {
+      jQuery('.productrecent').css('display', 'none');
+     }
+    });
+    
+    
+    </script>
+    <div id="todayWrap">
+        <div id="today">
+            <dl>
+                <dd class="today-cont productrecent">
+                    <ul>
+                        <!--/loop_view_product/-->
+                        <li id="<!--/idx/-->" class="now-prd"><a href="<!--/view_product@link/-->" style="float:left"><img src="<!--/view_product@image_s/-->" alt="상품 섬네일" title="상품 섬네일" /></a>
+                          <p class="num"><!--/idx/--></p>
+                        </li>
+                        <!--/end_loop/-->
+                    </ul>
+
+                    <ul class="player">
+                        <a href="#none" class="prev" style="cursor: pointer;float: left;"><img src="/design/kyh6643/supermarket/img/view_prev.png"></a>
+                        <div style="display: inline-block;" class="counting"><em id="now"></em>&nbsp;&nbsp;&nbsp;/&nbsp;<em id="all_cnt"></em></div>
+                        <a href="#none" class="next" style="cursor: pointer;float: right;"><img src="/design/kyh6643/supermarket/img/view_next.png"></a>
+                   </ul>
+
+                </dd>
+            
+                <div class="today-ft">
+                    <a href="#wrap"><img src="/images/d3/hot_issue/today_top.gif" alt="go top" title="go top" /></a>
+                </div>
+            </dl>
+        </div><!-- #today -->
+    </div><!-- #todayWrap -->
+    <!--/end_if/-->
+<!--/end_if/-->

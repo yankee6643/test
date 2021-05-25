@@ -1,0 +1,138 @@
+/* class-list */
+#detailpage{top:10% !important;}
+#productClass .item-wrap.best{padding: 30px 0 50px;}
+.cateTit .line{margin-top: 0 !important;}
+#productClass .cate-wrap .bcate {
+    padding: 35px 20px 0px 0;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    background: url(/design/kyh6643/supermarket/img/cate_ico.png) no-repeat;
+    background-position: left 43px;
+    text-indent: 18px;
+    font-family:'Spoqa Han Sans';}
+
+.nodata{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 15px;
+}
+#productClass .cate-wrap .cateCover{
+    position: relative;
+    margin: 30px 0 30px;}
+    
+#productClass .cate-wrap .cateCover .item-info{position:absolute; right: 0; top: 0;}    
+#productClass .cate-wrap .cateCover .item-info select{
+    border: 0;
+    font-size: 13px;
+    height: auto;
+    color: #a2a2a2;
+    font-weight: 300;
+    font-family: 'Spoqa Han Sans';
+    cursor: pointer;
+    padding: 10px 0;}
+    
+    
+
+#productClass .cate-wrap .class-list ul { *zoom:1; margin-top: 10px; }
+#productClass .cate-wrap .class-list ul:after { display:block; clear:both; content:'' }
+#productClass .cate-wrap .class-list ul li { float: left; }
+#productClass .cate-wrap .class-list ul li a {
+    display: block;
+    font-size: 16px;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 5px 20px 10px 20px;
+    color: #555555;
+    font-weight: 100;}
+#productClass .cate-wrap .class-list ul li.on{}
+#productClass .cate-wrap .class-list ul li.on a{border-bottom: 2px solid #6b3590; padding-bottom: 9px;}
+
+#productClass .cateTit h3{
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 0;
+    color: #000;}
+
+/* best-item */
+#productClass .best-item { padding-top: 20px; padding-bottom: 10px; border-top: 2px solid #5c5c5c; border-bottom: 2px solid #5c5c5c; background-color: #f8f8f8; }
+
+/* total-sort */
+#productClass .total-sort { padding-top: 30px; }
+
+/*¿µ¿ª*/
+.item-list{}
+
+.item-wrap .catelist{margin-top: 30px !important}
+
+.item-wrap .catelist .item-list{margin-bottom: 100px;}
+
+.item-list .thumb{position:relative;}
+
+    
+
+.item-list .thumb a{vertical-align:top;display:block; position:relative;}
+
+.item-list .thumb .cart{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;}
+    
+.item-list .thumb .cart a img{
+    width: auto !important;}
+
+.item-list .thumb .dc{
+    text-align:center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70px;
+    line-height: 70px;
+    width: 70px;
+    background: #6b3590;
+    color: #fff;
+    font-size: 24px;}
+
+.item-list .thumb .dc em{
+    font-size: 18px !important;}
+
+.item-list .thumb .dc.term{}
+
+.item-list .thumb .dc em:nth-child(3),
+.item-list .thumb .dc em:nth-child(4){display:none !important}
+.item-list .thumb .dc em.num{font-size:24px !important; width: 27px; display: inline-block;  overflow: hidden;}
+.item-list .thumb .dc em.percent{display: inline-block !important;font-size: 18px !important; display: inline-block; vertical-align: top;}
+.item-list dd{font-size: 16px;color: #000;font-weight: 300; text-align: left;}
+.item-list dd ul{}
+
+
+.item-list dd ul li.prd-name{margin-top: 20px !important; font-size: 18px;}
+.item-list dd ul li.prd-price{
+    padding-top: 5px;
+    font-size: 20px;
+    display: inline-block;font-family: 'Spoqa Han Sans'}
+.item-list dd ul li.prd-price em{
+    font-weight: 100 !important;
+    font-size: 19px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+    margin-left: 0px;}
+.item-list dd ul li.prd-subname{font-size: 14px;color: #646464;margin-top: 16px !important;}
+.item-list img{width:100%;}
+.item-list dd ul li.prd-consumer{display: inline-block;color: #919191; font-size: 21px; margin-right: 8px; font-weight: 500;  font-family: 'Spoqa Han Sans';}
+.item-list dd ul li.dc{
+    color: #94223e;
+    display: inline-block;
+    font-size: 22px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    margin-left: 5px;}
+
+
+.item-list dd ul li.dc em.num{}
+
+.item-list dd ul li.dc em.percent{
+    font-size: 16px !important;
+    font-weight: bold !important;
+    margin-left: 2px;}
+    

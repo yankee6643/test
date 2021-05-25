@@ -1,0 +1,197 @@
+<!--/script_scroll(1)/-->
+    <div id="wrap">
+        <!--/include_header(1)/-->
+        <div id="contentWrapper">
+            <div id="contentWrap">
+                <!--/include_menu(1)/-->
+                <div id="content">
+                    <div id="searchWrap">
+                        <dl class="loc-navi">
+                            <dt class="blind">현재 위치</dt>
+                            <dd>
+                                <a href="/">HOME</a> 
+                                &gt; 상품검색
+                            </dd>
+                        </dl>
+                        <div class="page-body">
+                            <h3 class="sch-tit">상품검색</h3>
+                            <div class="sch-frm">
+                                <!--/form_search/-->
+                                    <fieldset>
+                                        <legend>상품 검색 폼</legend>
+                                        <p class="tit-key"><span><img src="//image.makeshop.co.kr/makeshop/d3/basic_simple/common/ico_search_result.gif" /> 검색하신 단어 : <!--/keyword/--></span></p>
+                                        <div class="table-keyword">
+                                            <table summary="가격대, 제품명/키워드, 제조사, 상세내용">
+                                                <caption>상품검색 정보</caption>
+                                                <colgroup>
+                                                    <col width="70" />
+                                                    <col width="250" />
+                                                    <col width="110" />
+                                                    <col width="250" />
+                                                    <col width="*" />
+                                                </colgroup>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row"><div class="tb-left">가격대</div></th>
+                                                        <td>
+                                                            <div class="tb-left">
+                                                                <!--/input_price_min/-->
+                                                                -&nbsp;
+                                                                <!--/input_price_max/-->
+                                                            </div>
+                                                        </td>
+                                                        <th scope="row"><div class="tb-left">제품명·키워드</div></th>
+                                                        <td>
+                                                            <div class="tb-left">
+                                                                <!--/input_keyword/-->
+                                                            </div>
+                                                        </td>
+                                                        <td rowspan="2">
+                                                            <div class="tb-left">
+                                                                <a href="<!--/link_search/-->"><span class="CSSbuttonSearch">SEARCH</span></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row"><div class="tb-left">제조사</div></th>
+                                                        <td>
+                                                            <div class="tb-left">
+                                                                <!--/input_manufacture/-->
+                                                            </div>
+                                                        </td>
+                                                        <th scope="row"><div class="tb-left">상세내용</div></th>
+                                                        <td>
+                                                            <div class="tb-left">
+                                                                <!--/input_detail/-->
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </fieldset>
+                                <!--/end_form/-->
+                            </div><!-- .sch-frm -->
+
+                            <div class="item-wrap">
+                                
+                               <div class="cateCover"> 
+                                <div class="item-info">
+                                    <dl class="item-order sort">
+                                        <dd>
+                                            <select onchange="if(this.value) location.href=(this.value);">
+                                                <option value="javascript:sendsort('sellcnt')" <!--/if_now_sort_type(sellcnt)/-->selected<!--/end_if/-->>인기상품순</option>
+                                                <option value="javascript:sendsort('order')" <!--/if_now_sort_type(order)/-->selected<!--/end_if/-->>신상품순</option>
+                                                <option value="javascript:sendsort('brandname')" <!--/if_now_sort_type(brandname)/-->selected<!--/end_if/-->>상품명순</option>
+                                                <option value="javascript:sendsort('price')" <!--/if_now_sort_type(price)/-->selected<!--/end_if/-->>낮은가격순</option>
+                                                <option value="javascript:sendsort('price2')" <!--/if_now_sort_type(price2)/-->selected<!--/end_if/-->>높은가격순</option>
+                                                <option value="javascript:sendsort('viewcnt')" <!--/if_now_sort_type(viewcnt)/-->selected<!--/end_if/-->>조회순</option>
+                                            </select>
+                                        </dd>
+                                     </dl><!-- .total-sort -->
+                                 </div>
+                                </div>
+                                <!--/if_product/-->                               
+                                
+                                <div class="item-cont catelist">
+                                <!--/loop_product(12)/-->                                    
+                                                                        
+                                    <dl class="item-list loop<!--/idx/-->">
+                                    <dt class="thumb">
+                                        <p id="s_price" style="display:none"> <!--/if_product@price_consumer(+1)/--><!--/product@price_consumer/--><!--/else/--><!--/product@price_sell/--><!--/end_if/--></p>
+                                        <p id="s_dc" style="display:none"><!--/if_product@price_discount/--><!--/product@price_discount/--><!--/else/--><!--/product@price_sell/--><!--/end_if/--></p>
+                                        <script>
+                                           var no<!--/idx/-->sp = $(".catelist .loop<!--/idx/--> #s_price").text();
+                                           var no<!--/idx/-->s_dc = $(".catelist .loop<!--/idx/--> #s_dc").text();     
+                                           var no<!--/idx/-->sM = 100-[(no<!--/idx/-->s_dc/no<!--/idx/-->sp)*100];
+                                           var no<!--/idx/-->Olim = Math.round(no<!--/idx/-->sM);
+                                           var no<!--/idx/-->goInt = "<em class='num'>" + no<!--/idx/-->Olim + "</em><em class='percent'>%</em>";
+                                        </script>
+                                        <!--/if_product@is_term_discount/-->
+                                            <p class="dc term"><script> $(".catelist .loop<!--/idx/--> .term").append(no<!--/idx/-->goInt);
+                                            if(no<!--/idx/-->Olim == 0){
+                                                $(".catelist .loop<!--/idx/--> .dc.term").hide();
+                                            }
+                                            </script></p>
+                                        <!--/else/-->
+                                            <!--/if_product@discount_info/--><p class="dc"><!--/product@discount_info/--><em>%</em></p><!--/end_if/-->
+                                            <!--/if_product@discount_percent/--><p class="dc"><!--/product@discount_percent/--><em>%</em></p><!--/end_if/-->
+                                        <!--/end_if/-->
+                                        <a href="<!--/product@link/-->"><img src="<!--/product@image_m/-->" alt="상품 섬네일" title="상품 섬네일" /></a>
+                                        <div class="cart"><a href="<!--/product@link_preview/-->"><img src="/design/kyh6643/supermarket/img/cart_icon.png"></a></div>
+
+                                    </dt>
+                                    <dd>
+                                        <ul>
+                                            <li class="prd-name"><!--/notag/product@name/--></li>                
+                                            <!--/if_product@subname/--><li class="prd-subname"><!--/notag/product@subname/--></li><!--/end_if/-->
+
+                                            <!--/if_product@is_soldout/-->
+                                                <li class="prd-soldout">Sold out</li>
+                                            <!--/else/-->
+                                                <!--/if_product@price_replace/-->
+                                                    <li class="prd-replace"><!--/product@price_replace/--></li>
+                                                <!--/else/-->
+                                                <!--/if_product@price_consumer(+1)/-->
+                                                <!--/if_product@price_discount/-->
+                                                <li class="prd-consumer <!--/if_product@discount_percent/--><!--/else_if_product@discount_info/--><!--/else/--> dn<!--/end_if/-->"><strike><!--/number/product@price_consumer/--></strike></li>
+                                                <li class="prd-price"><!--/number/product@price_discount/--><em>원</em></li>
+
+                                                <!--/else/-->
+                                                <li class="prd-consumer <!--/if_product@discount_percent/--><!--/else_if_product@discount_info/--><!--/else/--> dn<!--/end_if/-->"><strike><!--/number/product@price_consumer/--></strike></li>
+                                                <li class="prd-price"><!--/number/product@price_sell/--><em>원</em></li>
+
+
+                                                <!--/end_if/-->
+                                                <!--/else/-->
+                                                <!--/if_product@price_discount/-->
+                                                <li class="prd-consumer <!--/if_product@discount_percent/--><!--/else_if_product@discount_info/--><!--/else/--> dn<!--/end_if/-->"><strike><!--/number/product@price_sell/--></strike></li>
+                                                <li class="prd-price"><!--/number/product@price_discount/--><em>원</em></li>
+                                                <!--/else/-->
+                                                <li class="prd-price"><!--/number/product@price_sell/--><em>원</em></li>
+                                                <!--/end_if/-->
+                                                <!--/end_if/-->
+                                            <!--/end_if/-->
+                                            <!--/end_if/-->
+
+                                        </ul>
+                                    </dd>
+                                </dl>
+                                <!--/end_loop/-->
+                         
+
+                                <ol class="paging">
+                                    <!--/if_pager_product::first@link/-->
+                                    <a href="<!--/pager_product::first@link/-->" class="first">&lt;&lt;</a>
+                                    <!--/end_if/-->
+                                    <!--/if_pager_product::prev@link/-->
+                                    <a href="<!--/pager_product::prev@link/-->" class="prev">&lt;</a>
+                                    <!--/end_if/-->
+                                    <!--/loop_pager_product::page/-->
+                                    <!--/if_pager_product::page@current/-->
+                                    <a href="<!--/pager_product::current@link/-->" class="now"><!--/pager_product::current/--></a>
+                                    <!--/else/-->
+                                    <a href="<!--/pager_product::page@link/-->"><!--/pager_product::page/--></a>
+                                    <!--/end_if/-->
+                                    <!--/end_loop/-->
+                                    <!--/if_pager_product::next@link/-->
+                                    <a href="<!--/pager_product::next@link/-->" class="next">&gt;</a>
+                                    <!--/end_if/-->
+                                    <!--/if_pager_product::last@link/-->
+                                    <a href="<!--/pager_product::last@link/-->"  class="last">&gt;&gt;</a>
+                                    <!--/end_if/-->
+                                </ol>
+                                <!--/else/-->
+                                <p class="nodata">상품이 없습니다.</p>
+                                </div>                                       
+                                <!--/end_if/-->
+                                
+                            </div><!-- .item-wrap -->
+                        </div><!-- .page-body -->
+                    </div><!-- #searchWrap -->
+                </div><!-- #content -->
+            </div><!-- #contentWrap -->
+        </div><!-- #contentWrapper-->
+        <hr />
+        <!--/include_footer(1)/-->
+    </div><!-- #wrap -->

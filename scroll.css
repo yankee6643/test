@@ -1,0 +1,38 @@
+.r_wing_wrap{
+    margin-left: 0 !important;
+    margin-right: 50px !important; 
+    right: 0 !important;
+    left: inherit !important;}
+
+.all_cnt{font-family: 'Spoqa Han Sans';}
+
+#today .today-cont ul { display: table; margin: 0 auto; }
+#today .today-cont ul li { margin-top: 5px; }
+#today .today-ft { margin-top: 10px; text-align: center; }
+
+.r_wing_wrap .r_wing_content .today_wrap_c .player img{width:inherit !important;}
+.r_wing_wrap .r_wing_content .today_wrap_c .player a{}
+
+.player{width: 85px;
+    margin: 0 auto;
+    display: inline-table;
+    padding: 10px 0;}
+    
+.player a{}
+
+.productrecent ul{
+    text-align: center;
+    display: table;
+    margin: 0 auto;}
+
+.productrecent ul .counting{
+    font-family: 'Spoqa Han Sans';
+    font-size:12px}
+
+.displaynone{display: none !important;}
+
+.r_wing_wrap .r_wing_content .today_wrap_c dd.productrecent{position: relative;}
+
+.r_wing_wrap .r_wing_content .today_wrap_c dd.productrecent li a{padding:0 !important}
+
+.r_wing_wrap .r_wing_content .today_wrap_c li p.num{font-family: 'Spoqa Han Sans';position: absolute; bottom: 12px; left: 47px; font-size: 12px;color: #000;}
