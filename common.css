@@ -301,10 +301,10 @@ table img { vertical-align: middle; }
 .paging a.first,
 .paging a.last { }
 
-.paging a.first{background:url('/design/kyh6643/supermarket/img/first.png') no-repeat; background-position: center;}
-.paging a.prev{background:url('/design/kyh6643/supermarket/img/prev.png') no-repeat; background-position: center;}
-.paging a.next{background:url('/design/kyh6643/supermarket/img/next.png') no-repeat; background-position: center;}
-.paging a.last{background:url('/design/kyh6643/supermarket/img/last.png') no-repeat; background-position: center;}
+.paging a.first{background:url('https://yankee6643.github.io/test/img/first.png') no-repeat; background-position: center;}
+.paging a.prev{background:url('https://yankee6643.github.io/test/img/prev.png') no-repeat; background-position: center;}
+.paging a.next{background:url('https://yankee6643.github.io/test/img/next.png') no-repeat; background-position: center;}
+.paging a.last{background:url('https://yankee6643.github.io/test/img/last.png') no-repeat; background-position: center;}
 
 /* 현재위치 */
 .loc-navi { height:46px; text-align:right; overflow:hidden }
@@ -639,10 +639,10 @@ hot issue common class
 .item-wrap .item-page a {overflow: hidden;height: 15px;padding: 9px 15px;font-size: 15px;border-left: 0 !important; color: #868686; cursor: pointer; border: 1px solid #e6e6e6;}
 .item-wrap .item-page a:hover,
 .item-wrap .item-page a.now {background: #f9f9f9;}
-.item-wrap .item-page a.first{background:url('/design/kyh6643/supermarket/img/arrow_first.png') no-repeat; font-size: 0;display: inline-block;background-position: center;height: 20px;width: 8px;}
-.item-wrap .item-page a.prev{background:url('/design/kyh6643/supermarket/img/arrow_prev.png') no-repeat; font-size: 0;display: inline-block;background-position: center;height: 20px;width: 8px;}
-.item-wrap .item-page a.next{background:url('/design/kyh6643/supermarket/img/arrow_next.png') no-repeat; font-size: 0;display: inline-block;background-position: center;height: 20px;width: 8px;}
-.item-wrap .item-page a.last{background:url('/design/kyh6643/supermarket/img/arrow_last.png') no-repeat; font-size: 0;display: inline-block;background-position: center;height: 20px;width: 8px;}
+.item-wrap .item-page a.first{background:url('https://yankee6643.github.io/test/img/arrow_first.png') no-repeat; font-size: 0;display: inline-block;background-position: center;height: 20px;width: 8px;}
+.item-wrap .item-page a.prev{background:url('https://yankee6643.github.io/test/img/arrow_prev.png') no-repeat; font-size: 0;display: inline-block;background-position: center;height: 20px;width: 8px;}
+.item-wrap .item-page a.next{background:url('https://yankee6643.github.io/test/img/arrow_next.png') no-repeat; font-size: 0;display: inline-block;background-position: center;height: 20px;width: 8px;}
+.item-wrap .item-page a.last{background:url('https://yankee6643.github.io/test/img/arrow_last.png') no-repeat; font-size: 0;display: inline-block;background-position: center;height: 20px;width: 8px;}
 
 /* 타이틀 */
 .cateTit { padding-top:0px; position:relative; text-align:center }

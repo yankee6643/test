@@ -96,7 +96,7 @@
 @import url(//cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 @font-face {
 	font-family: MalgunGothic;
-	src: url(/design/kyh6643/supermarket/font/MalgunGothic.eot);
+	src: url(https://yankee6643.github.io/test/font/MalgunGothic.eot);
 }
 .clear_w:before, .clear_w:after {
 	content: '';
@@ -274,7 +274,7 @@
 	position: relative;
 	z-index: 2;
 	padding: 0px 40px;
-	background: url('/design/kyh6643/supermarket/img/aline.gif') no-repeat left 19px;
+	background: url('https://yankee6643.github.io/test/img/aline.gif') no-repeat left 19px;
 }
 .header_wrap .menu_wrap .menu_content .mcategory li > a:hover {
 	font-weight: 700;
@@ -334,7 +334,7 @@
 	height: 45px;
 	line-height: 3.555em;
 	padding: 0px 18px;
-	background: url('/design/kyh6643/supermarket/img/aline.gif') no-repeat right center;
+	background: url('https://yankee6643.github.io/test/img/aline.gif') no-repeat right center;
 }
 .header_wrap .menu_wrap .menu_content .mboard_wrap li:last-child a {
 	padding-right: 0px!important;
@@ -450,7 +450,7 @@
 .dis_con {
 	width: 72px;
 	height: 53px;
-	background: url(/design/kyh6643/supermarket/img/darrow.png) no-repeat center center;
+	background: url(https://yankee6643.github.io/test/img/darrow.png) no-repeat center center;
 	position: absolute;
 	top: -1px;
 	left: -12px;
@@ -493,7 +493,7 @@
 #gnb .cart_count .msg_cart .tit{display:block;overflow:hidden;width:100%;color:#999;white-space:nowrap;text-overflow:ellipsis}
 #gnb .cart_count .msg_cart .name{overflow:hidden;float:left;max-width:178px;text-overflow:ellipsis}
 #gnb .cart_count .msg_cart .txt{display:block;padding-top:3px;color:#333}
-#gnb .cart_count .msg_cart .point{position:absolute;right:13px;top:-14px;width:20px;height:14px;background:url(/design/kyh6643/supermarket/img/ico_layer_point.png) no-repeat 0 0}
+#gnb .cart_count .msg_cart .point{position:absolute;right:13px;top:-14px;width:20px;height:14px;background:url(https://yankee6643.github.io/test/img/ico_layer_point.png) no-repeat 0 0}
 /* GNB메인 */
 #gnb .gnb_main{
     width: 1200px;
@@ -507,17 +507,17 @@
 #gnb .gnb_main .gnb a.on}
 #gnb .gnb_main .gnb a:hover .txt{border-bottom:1px solid #6b3590}
 #gnb .gnb_main .menu1 a{ padding-left: 0}
-#gnb .gnb_main .menu1 .ico{float:left;width:22px;height:18px;margin:1px 14px 0 0;background:url(/design/kyh6643/supermarket/img/ico_gnb_all_off.png) no-repeat}
+#gnb .gnb_main .menu1 .ico{float:left;width:22px;height:18px;margin:1px 14px 0 0;background:url(https://yankee6643.github.io/test/img/ico_gnb_all_off.png) no-repeat}
 #gnb .gnb_main .menu1 a.on .ico,
-#gnb .gnb_main .menu1 a:hover .ico{background:url(/design/kyh6643/supermarket/img/ico_gnb_all.png) no-repeat 0 0}
+#gnb .gnb_main .menu1 a:hover .ico{background:url(https://yankee6643.github.io/test/img/ico_gnb_all.png) no-repeat 0 0}
 
 #gnb .gnb_main .menu1 a.on .txt{color:#6a3590}
 #gnb .gnb_main .menu1 a.on .txt,
 #gnb .gnb_main .menu1 a:hover .txt,
 #gnb .gnb_main .menu1 .txt{float:left;border-bottom:0; }
 /* GNB서브 */
-#gnb .gnb_sub{background: #fff;display:none;overflow:hidden;position:absolute;z-index:301;left:0;top:69px;width:100%; padding-top:1px; border: 1px solid #ddd; background-image: url(/design/kyh6643/supermarket/img/gnb_bg.png); background-repeat: no-repeat;  background-position: top;}
-#gnb .gnb_sub .inner_sub{margin-top: -1px;padding-top: 25px;width: 1200px; margin: 0 auto; background: #fff; font-size: 0; background-image: url(/design/kyh6643/supermarket/img/gnb_bg.png); background-repeat: no-repeat; background-position: top;  border-top: 0; background-size: contain;}
+#gnb .gnb_sub{background: #fff;display:none;overflow:hidden;position:absolute;z-index:301;left:0;top:69px;width:100%; padding-top:1px; border: 1px solid #ddd; background-image: url(https://yankee6643.github.io/test/img/gnb_bg.png); background-repeat: no-repeat;  background-position: top;}
+#gnb .gnb_sub .inner_sub{margin-top: -1px;padding-top: 25px;width: 1200px; margin: 0 auto; background: #fff; font-size: 0; background-image: url(https://yankee6643.github.io/test/img/gnb_bg.png); background-repeat: no-repeat; background-position: top;  border-top: 0; background-size: contain;}
 #gnb .size_over{overflow-x:hidden;overflow-y:auto}
 #gnb .gnb_sub .gnb_menu{width: 158px; display: inline-block; vertical-align: top; margin-right: 50px; margin-bottom: 20px;}    
 #gnb .gnb_sub .gnb_menu:nth-child(6n){margin-right:0 !important;}

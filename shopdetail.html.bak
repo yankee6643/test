@@ -59,7 +59,7 @@
                                     <!--/btn_scrap_fb/-->
                                     <!--/btn_scrap_tw/-->                                    
                                     
-                                    <a href="#ready" onclick="window.open('#ready', 'name3', '#ready');" onmouseover="document.getElementById('KA_btn_over').style.display='block';" onmouseout="document.getElementById('KA_btn_over').style.display='none';"><img border="0" src="/design/kyh6643/supermarket/img/sns-kakao.png"></a>
+                                    <a href="#ready" onclick="window.open('#ready', 'name3', '#ready');" onmouseover="document.getElementById('KA_btn_over').style.display='block';" onmouseout="document.getElementById('KA_btn_over').style.display='none';"><img border="0" src="https://yankee6643.github.io/test/img/sns-kakao.png"></a>
                                     <div id="KA_btn_over" class="MS_btn_scrap_ka" style="display: none;">
                                     소셜 네트워크인 <span style="color:red">카카오</span>에<br>상품정보를 스크랩할 수 있습니다.
                                     </div>
@@ -113,7 +113,7 @@
                                                 <tr class="price_zone">
                                                     <td class="price dc" colspan="2">
                                                         <div class="tb-left">
-                                                            <img src="/design/kyh6643/supermarket/img/timesale_ico.png" class="timesale_ico"><p id="hidden"><!--/dc_price_sell/--></p><p id="count"><!--/number/dc_price_sell/--></p><em>원</em>
+                                                            <img src="https://yankee6643.github.io/test/img/timesale_ico.png" class="timesale_ico"><p id="hidden"><!--/dc_price_sell/--></p><p id="count"><!--/number/dc_price_sell/--></p><em>원</em>
                                                         </div>
                                                     </td>
                                                 </tr>                                                

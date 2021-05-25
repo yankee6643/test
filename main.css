@@ -62,14 +62,14 @@
 
 #mainBnr .swiper-button-prev {
 	opacity: 0;
-	background: url(/design/kyh6643/supermarket/img/prev_ico_1x.png) no-repeat;
+	background: url(https://yankee6643.github.io/test/img/prev_ico_1x.png) no-repeat;
 	height: 52px;
 	width: 52px;
 	background-size: contain;
 }
 #mainBnr .swiper-button-next {
 	opacity: 0;
-	background: url(/design/kyh6643/supermarket/img/next_ico_1x.png) no-repeat;
+	background: url(https://yankee6643.github.io/test/img/next_ico_1x.png) no-repeat;
 	height: 52px;
 	width: 52px;
 	background-size: contain;
@@ -246,12 +246,12 @@
 }
 #NEW .slick-next {
 	background-position: center !important;
-	background: url(/design/kyh6643/supermarket/img/next_arr.png) no-repeat;
+	background: url(https://yankee6643.github.io/test/img/next_arr.png) no-repeat;
 	right: -80px !important;
 }
 #NEW .slick-prev {
 	background-position: center !important;
-	background: url(/design/kyh6643/supermarket/img/prev_arr.png) no-repeat;
+	background: url(https://yankee6643.github.io/test/img/prev_arr.png) no-repeat;
 	left: -80px !important;
 }
 #NEW .slick-prev:before, #NEW .slick-next:before {
@@ -262,12 +262,12 @@
 }
 #NEW .slick-prev:hover, #NEW .slick-prev:focus {
 	background-color: #fff !important;
-	background: url(/design/kyh6643/supermarket/img/prev_arr.png) no-repeat !important;
+	background: url(https://yankee6643.github.io/test/img/prev_arr.png) no-repeat !important;
 	background-position: center !important;
 }
 #NEW .slick-next:hover, #NEW .slick-next:focus {
 	background-color: #fff !important;
-	background: url(/design/kyh6643/supermarket/img/next_arr.png) no-repeat !important;
+	background: url(https://yankee6643.github.io/test/img/next_arr.png) no-repeat !important;
 	background-position: center !important;
 }
 
@@ -601,12 +601,12 @@
 }
 #special .slick-next {
 	background-position: center !important;
-	background: url(/design/kyh6643/supermarket/img/next_arr.png) no-repeat;
+	background: url(https://yankee6643.github.io/test/img/next_arr.png) no-repeat;
 	right: -80px !important;
 }
 #special .slick-prev {
 	background-position: center !important;
-	background: url(/design/kyh6643/supermarket/img/prev_arr.png) no-repeat;
+	background: url(https://yankee6643.github.io/test/img/prev_arr.png) no-repeat;
 	left: -80px !important;
 }
 #special .slick-prev:before, #special .slick-next:before {
@@ -616,12 +616,12 @@
 	font-size: 0
 }
 #special .slick-prev:hover, #special .slick-prev:focus {
-	background: url(/design/kyh6643/supermarket/img/prev_arr.png) no-repeat !important;
+	background: url(https://yankee6643.github.io/test/img/prev_arr.png) no-repeat !important;
 	background-position: center !important;
 	background-color: #fff !important;
 }
 #special .slick-next:hover, #special .slick-next:focus {
-	background: url(/design/kyh6643/supermarket/img/next_arr.png) no-repeat !important;
+	background: url(https://yankee6643.github.io/test/img/next_arr.png) no-repeat !important;
 	background-position: center !important;
 	background-color: #fff !important;
 }
@@ -789,12 +789,12 @@
 }
 #sale .slick-next {
 	background-position: center !important;
-	background: url(/design/kyh6643/supermarket/img/next_arr.png) no-repeat;
+	background: url(https://yankee6643.github.io/test/img/next_arr.png) no-repeat;
 	right: -80px !important;
 }
 #sale .slick-prev {
 	background-position: center !important;
-	background: url(/design/kyh6643/supermarket/img/prev_arr.png) no-repeat;
+	background: url(https://yankee6643.github.io/test/img/prev_arr.png) no-repeat;
 	left: -80px !important;
 }
 #sale .slick-prev:before, #sale .slick-next:before {
@@ -805,12 +805,12 @@
 }
 #sale .slick-prev:hover, #sale .slick-prev:focus {
 	background-color: #fff !important;
-	background: url(/design/kyh6643/supermarket/img/prev_arr.png) no-repeat !important;
+	background: url(https://yankee6643.github.io/test/img/prev_arr.png) no-repeat !important;
 	background-position: center !important;
 }
 #sale .slick-next:hover, #sale .slick-next:focus {
 	background-color: #fff !important;
-	background: url(/design/kyh6643/supermarket/img/next_arr.png) no-repeat !important;
+	background: url(https://yankee6643.github.io/test/img/next_arr.png) no-repeat !important;
 	background-position: center !important;
 }
 
@@ -1024,12 +1024,12 @@
 }
 .md-wrap .slick-next {
 	background-position: center !important;
-	background: url(/design/kyh6643/supermarket/img/next_arr.png) no-repeat;
+	background: url(https://yankee6643.github.io/test/img/next_arr.png) no-repeat;
 	right: -80px !important;
 }
 .md-wrap .slick-prev {
 	background-position: center !important;
-	background: url(/design/kyh6643/supermarket/img/prev_arr.png) no-repeat;
+	background: url(https://yankee6643.github.io/test/img/prev_arr.png) no-repeat;
 	left: -80px !important;
 }
 .md-wrap .slick-prev:before, .md-wrap .slick-next:before {
@@ -1040,12 +1040,12 @@
 }
 .md-wrap .slick-prev:hover, .md-wrap .slick-prev:focus {
 	background-color: #fff !important;
-	background: url(/design/kyh6643/supermarket/img/prev_arr.png) no-repeat !important;
+	background: url(https://yankee6643.github.io/test/img/prev_arr.png) no-repeat !important;
 	background-position: center !important;
 }
 .md-wrap .slick-next:hover, .md-wrap .slick-next:focus {
 	background-color: #fff !important;
-	background: url(/design/kyh6643/supermarket/img/next_arr.png) no-repeat !important;
+	background: url(https://yankee6643.github.io/test/img/next_arr.png) no-repeat !important;
 	background-position: center !important;
 }
 
